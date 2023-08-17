@@ -79,6 +79,66 @@
     font-size: 12px;
 }
 
+@media(max-width: 576px){
+    #card{
+        width: 90vw;
+        height: 90vh;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    
+    #card .description{
+        width: auto;
+        height: 70%;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    
+    #card .stats{
+        flex-direction: column;
+    }
+    
+    #card .card-img{
+        height: 30%;
+        width: auto;
+        border-radius: 7px 7px 0px 0px;
+    }
+    
+    #card .stats .companies, #card .stats .templates, #card .stats .queries{
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width: 768px){
+    #card{
+        width: 70vw;
+        height: 95vh;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    
+    #card .description{
+        width: auto;
+        height: 70%;
+        text-align: center;
+        padding: 1.5rem;
+    }
+    
+    #card .stats{
+        flex-direction: column;
+    }
+    
+    #card .card-img{
+        height: 30%;
+        width: auto;
+        border-radius: 7px 7px 0px 0px;
+    }
+    
+    #card .stats .companies, #card .stats .templates, #card .stats .queries{
+        margin-bottom: 2rem;
+    }
+}
+
 
 
 
